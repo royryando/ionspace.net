@@ -15,7 +15,28 @@
     <div id="particles-js"></div>
 
     <div class="center">
-      <h1><b>I</b>nterconnected <b>On</b>line <b>Space</b> <b>Net</b>work</h1>
+      <div class="title-wrapper">
+        <h1><b>I</b>nterconnected <b>On</b>line <b>Space</b> <b>Net</b>work</h1>
+        <svg id="info-btn" class="info-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+        </svg>
+      </div>
+    </div>
+
+    <div id="info-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Information</h2>
+        <p>
+          <strong>Notice of Domain Administration</strong>
+          <br><br>
+          Please be advised that all subdomains operating under the <strong>ionspace.net</strong> domain are solely managed and maintained under my administration.
+          <br><br>
+          I remain committed to ensuring a secure and compliant online environment. Should you encounter any hosted content within these subdomains that you deem inappropriate, malicious, or in violation of standard acceptable use policies (e.g., spam or fraudulent activities), you are strongly encouraged to report it immediately.
+          <br><br>
+          Kindly direct all compliance notices and abuse reports to <span id="contact-link"></span> for prompt investigation and resolution.
+        </p>
+      </div>
     </div>
 
     <div class="footer">
@@ -23,8 +44,6 @@
     </div>
 
     <script src="/particles.min.js"></script>
-    <script>
-      particlesJS.load("particles-js", "/particlesjs-config.json");
-    </script>
+    <script src="/script.js"></script>
   </body>
 </html>
