@@ -54,7 +54,8 @@ a:focus {
     text-decoration: underline;
 }
 
-b {
+b,
+strong {
     font-weight: 700;
 }
 
